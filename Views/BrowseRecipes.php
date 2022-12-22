@@ -53,6 +53,7 @@ require_once(__DIR__ . "/../Controllers/RecipeController.php");
                                         alt="" />
                                     <?php echo preg_filter('/[^\d]/', '', $recipe['portions']);?>
                                 </li>
+                                <!-- TODO: add title -->
                             </ul>
                         </a>
                     </div>
